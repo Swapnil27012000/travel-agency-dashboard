@@ -1,10 +1,16 @@
-import React from 'react'
+import { Header } from "../../../components"
 
-const AllUsers = () => {
+const AllUsers = async() => {
   return (
-    <div>
-      Users Table
-    </div>
+    <main className='all-users wrapper'>
+      <Header
+        title="Manage Users"
+        description="Filter, sort, and access detailed user profiles"
+      />
+
+      All Users Page Contents
+
+    </main>
   )
 }
 
